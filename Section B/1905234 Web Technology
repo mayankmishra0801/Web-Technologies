@@ -1,0 +1,65 @@
+DOCTYPE html>
+<html>
+    <head>
+        <style>
+            input{
+            background-color:rgb(38, 148, 192);
+            border:2px solid rgb(73, 110, 134);
+            border_radius:4px;
+            }
+            textarea{
+                background-color:rgb(235, 219, 225);
+                
+            }
+            select{
+                background-color:blueviolet;
+            }
+            input[type = submit]
+            {
+                background-color:aquamarine;
+                padding:16px 32px;
+                margin:4px 2px;
+                border:2px;
+                color:beige;
+            }
+            h1{
+                font-size:x-large;
+                font-weight: 300;
+                color: brown;
+                
+            }
+            p{
+                font-size: medium;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: rgb(197, 24, 82);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome, Explore my Website</h2>
+        <p> Hope you will enjoy here.</p>
+        <form action ="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="Your First  Name"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Your Last Name"><br><br>
+            <label for="gmail">G-mail Id:</label><br>
+            <input type="text" id="gmail" name="gmail" value="@gmail.com"><br>
+        <input type = "radio" id= "male" name = "gender" value = "male">
+        <label for= "male" >Male </label><br>
+        <input type = "radio" id= "female" name = "gender" value = "female">
+        <label for= "female" >Female </label><br>
+        <input type = "radio" id= "other" name = "gender" value = "other">
+        <label for= "other" >other</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label><br><br>
+
+        <textarea name = "message" rows="10" cols="30">Kindly Write your suggestion! </textarea>
+        <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
